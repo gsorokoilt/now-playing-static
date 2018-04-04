@@ -66,6 +66,8 @@ figure {
   background-color: #ffffff;
 }
 
+
+
 .site-nav-list,
 .footer-nav-list {
   margin: 0;
@@ -195,3 +197,32 @@ figure {
 .about > p {
   margin: 0;
 }
+
+@media screen and (min-width: 768px) {
+  .site-nav {
+    position: fixed;
+    top: 11%;
+    left: 0;
+    right: 0;
+    width: 10%;
+    z-index: 100;
+    background-color: #fff;
+  
+  }
+  .site-nav-item{
+    float: none;
+  }
+.site-logo {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 10%;
+  z-index: 100;
+  padding: 0;
+  background-color: #fff;
+  }
+
+main {
+    margin-left: 10%;
+  }
